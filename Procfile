@@ -1,1 +1,1 @@
-web: sh target/petclinic.war
+web: java -Dserver.port=$PORT -jar  target/petclinic.war
